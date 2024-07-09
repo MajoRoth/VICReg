@@ -1,0 +1,30 @@
+model:
+  name: vicreg
+  encoder_dim: 128
+  proj_dim: 512
+
+trainer:
+  lr: 0.0003
+  weight_decay: 0.0000001
+  epochs: 60
+  batch_size: 256
+
+  gamma: 1
+  epsilon: 0.0001
+  lambdaa: 25
+  mu: 25
+  nu: 1
+
+  augment: True
+
+  # ablations
+  loss_variance: False
+
+data:
+
+
+
+
+
+
+

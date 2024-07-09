@@ -1,0 +1,21 @@
+model:
+  name: linear_probing
+  encoder_dim: 128
+  proj_dim: 512
+  vicreg_ckpt: "/tmp/pycharm_project_765/checkpoints/vicreg_abl_1/epoch_59.pt"
+
+trainer:
+  lr: 0.001
+  epochs: 60
+  batch_size: 256
+
+  augment: False
+
+data:
+
+
+
+
+
+
+
